@@ -5,7 +5,7 @@ A python program that gives the user a random quote prompt after signing into Wi
 
 Each time this program runs, it pulls quote data from an API and passes it as arguments to a batch script 💻
 
-The batch script elevates Powershell and runs a command to update the data of legalnoticecaption and legalnoticetext in the Registry Editor. 
+The batch script elevates Powershell and runs a command to update the value data of legalnoticecaption and legalnoticetext in the Registry Editor. 
 
 ## ⚠️ REQUIRED ⚠️
 Run `pip install requests` (or `pip3 install requests` for python3) 
