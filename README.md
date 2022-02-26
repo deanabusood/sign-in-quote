@@ -7,7 +7,7 @@ Each time this program runs, it pulls quote data from an API and passes it as ar
 
 The batch script elevates Powershell and runs a command to update the value data of legalnoticecaption and legalnoticetext in the Registry Editor. 
 
-## ⚠️ REQUIRED ⚠️
+## Requirements ⚠️
 Run `pip install requests` (or `pip3 install requests` for python3) 
 
 Web source: https://pypi.org/project/requests/ to install the requests library
