@@ -16,11 +16,10 @@ legalnoticecaption = legalnoticecaption.replace(",", "+")
 
 # pull and set legalnoticetext argument from api
 quote = randomQuote["content"]
-legalnoticetext = "uifshi!,,  !!"
+legalnoticetext = quote
 # replace any breakable characters to create a clean argument
 legalnoticetext = legalnoticetext.replace(" ", "_")
 legalnoticetext = legalnoticetext.replace(",", "+")
-legalnoticetext = legalnoticetext.replace("!","`")
 
 # batch file passed with 2 args
 batFilePath = ".\\res\\regeditsystem.bat"
