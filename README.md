@@ -1,4 +1,4 @@
-# signin-quote 🗣️📖
+# sign-in-quote 🗣️📖
 
 A python program that gives the user a random quote prompt after signing into Windows!
 
